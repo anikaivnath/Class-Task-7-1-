@@ -25,41 +25,43 @@
     </div>
 
     <!-- Start Hero part -->
-     <div class=" m-20">
-        <div>
+    <div class="m-20 flex space-x-10">
+        <!-- Main product image -->
+        <div class="flex flex-col items-center">
             <img src="./image-product-1.jpg" alt="" class="w-[405px] rounded-2xl">
-
+            <div class="flex gap-2 mt-4">
+                <img src="./image-product-1-thumbnail.jpg" alt="" class="w-20 h-20 rounded-lg">
+                <img src="./image-product-2-thumbnail.jpg" alt="" class="w-20 h-20 rounded-lg">
+                <img src="./image-product-3-thumbnail.jpg" alt="" class="w-20 h-20 rounded-lg">
+                <img src="./image-product-4-thumbnail.jpg" alt="" class="w-20 h-20 rounded-lg">
+            </div>
         </div>
-        <div class=" mt-4 gap-2">
-            <div class="flex gap-2 w-24  ">
-        <img src="./image-product-1-thumbnail.jpg" alt="" class="rounded">
-        <img src="./image-product-2-thumbnail.jpg" alt="" class="rounded">
-        <img src="./image-product-3-thumbnail.jpg" alt="" class="rounded">
-        <img src="./image-product-4-thumbnail.jpg" alt="" class="rounded">
-    </div>
-     </div>
 
-    
-<!-- start section 2 of hero section -->
- <div>
-    <p class="uppercase text-xs font-medium ">Sneakers Company</p>
-    <div>
-    <h1>Fall Limited Edition Sneakers</h1>
-    <div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, a! Ipsum quisquam vel cupiditate consectetur consequuntur ea modi et nihil voluptate culpa, soluta fugiat deleniti a voluptatem molestias excepturi! Cupiditate esse qu</p>
-    </div>
-    <div class="flex">
-        <h1 class="line-through">$125 </h1> 
-        <p><span class="none ml-2 bg-black text-white px-2 rounded">50%</span></p>
-    </div>
-        <p>$250</p>
+        <!-- Section 2 (Text part) -->
+        <div class="w-80">
+            <p class="uppercase text-xs font-medium mt-2 text-gray-500">Sneakers Company</p>
+            <h1 class="text-3xl font-bold mt-4">Fall Limited Edition Sneakers</h1>
+            <p class="mt-4 text-gray-700">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, a! Ipsum quisquam vel cupiditate consectetur consequuntur ea modi et nihil voluptate culpa, soluta fugiat deleniti a voluptatem molestias excepturi!
+            </p>
 
-    <div>
-        <p><i class="fa-solid fa-minus"></i>0<i class="fa-solid fa-plus"></i></p>
+            <div class="flex items-center mt-6">
+                <h1 class="text-2xl font-bold line-through">$125</h1> 
+                <span class="ml-4 text-red-500 bg-gray-200 px-2 rounded">50% off</span>
+            </div>
+            <p class="mt-2 line-through text-gray-500">$250</p>
+
+            <div class="flex items-center mt-6 space-x-4">
+                <!-- Quantity buttons -->
+                <div class="flex items-center space-x-2 bg-gray-100 px-4 py-2 rounded-lg">
+                    <i class="fa-solid fa-minus cursor-pointer"></i>
+                    <span>0</span>
+                    <i class="fa-solid fa-plus cursor-pointer"></i>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
- </div>
-</div>
+
 
 </body>
 </html>
